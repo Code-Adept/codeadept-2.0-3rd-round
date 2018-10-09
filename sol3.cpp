@@ -1,3 +1,4 @@
+/*
 If you had extra space to do it, the problem will be very easy. 
 Store a copy of Arr in B.
 
@@ -13,6 +14,7 @@ This problem assumes that N * N does not overflow.
 
 
 Solution:
+*/
 
   #include <bits/stdc++.h>
    using namespace std;

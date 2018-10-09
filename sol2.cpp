@@ -1,4 +1,4 @@
-Why is it hard to calculate the answer directly by the formula in the problem statement? The reason is that 2^n is a very large number, for n = 10^8 it consists of around 30 million decimal digits. (Anyway, it was actually possible to get the problem accepted directly calculating the result in Python or Java using built-in long arithmetics.)
+/*Why is it hard to calculate the answer directly by the formula in the problem statement? The reason is that 2^n is a very large number, for n = 10^8 it consists of around 30 million decimal digits. (Anyway, it was actually possible to get the problem accepted directly calculating the result in Python or Java using built-in long arithmetics.)
 
 The main thing to notice in this problem: x mod y = x  if x < y.
 
@@ -9,8 +9,8 @@ Since m ≤ 10^8 by the constraints, for n ≥ 27 the answer is always e
 If n < 27, it's easy to calculate the answer directly.
 
 Solution:
-  
-  #include <bits/stdc++.h>
+*/
+#include <bits/stdc++.h>
 
 using namespace std;
 
